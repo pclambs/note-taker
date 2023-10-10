@@ -12,6 +12,7 @@ app.use(express.static('public'))
 app.use(apiRoutes)
 app.use(viewRoutes)
 
+
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
-})
+}) 
